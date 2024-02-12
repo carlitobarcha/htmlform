@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>My Form</h2>
+<form  action="/Error.php" target="_blank" method="get">
+<p> 1.Text Fields </p><br>
+ 
+<label> First name: </label>
+<input type="text" value="Enter your Name here.."><br><br>
+ 
+<label>Last name:</label>
+<input type="text"  value= "Enter your Last name here….">
+ 
+<br><br><p> 2. Radio Button </p><br>
+ 
+<input type="radio" value="male">
+<label>Male</label><br>
+<input type="radio"  value="female">
+<label>Female</label>
+ 
+<br><br><p>3.The select Element defines a drop-down list:</p><br>
+<label>Choose a car:</label>
+ 
+<select>
+<option> Volvo </option>
+<option> Saab  </option>
+<option> Fiat  </option>
+<option> Audi  </option>
+</select>
+<br><br><p>4. The select Element define a pre-selected option:</p><br><br>
+<label>Choose a car:</label>
+<select>
+<option> Volvo </option>
+<option> Saab  </option>
+<option selected> Fiat  </option>
+<option> Audi  </option>
+</select><br><br>
+<br><br><p>5.The select Element- specify the number of visible values:</p><br><br>
+<label>Choose a car:</label>
+<select size="3">
+<option> Volvo </option>
+<option> Saab  </option>
+<option> Fiat  </option>
+<option> Audi  </option>
+</select><br><br>
+<br><br><p>6.The select Element- Allow Multiple Selections:</p><br><br>
+<label>Choose a car:</label>
+<select size="3" multiple>
+<option> Volvo </option>
+<option> Saab  </option>
+<option> Fiat  </option>
+<option> Audi  </option>
+</select><br><br>
+<br><br><p> 7.The textarea Element</p>
+<textarea rows="10" cols="30">Enter your text here</textarea>
+<br><br><p> 8.The fieldset and legend Elements</p>
+<fieldset>
+<legend>Personal Information:</legend>
+​<label>First name:</label>
+​<input type="text" value="John"><br><br>
+​<label>Last name:</label>
+​<input type="text" value="Doe"><br><br>
+​<input type="submit" value="Submit">
+</fieldset>
+<br><br><p>9.The datalist Element </p>
+<input list="browsers" name="browser">
+<datalist>
+<option value="Internet Explorer">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+<br><br><p> Inputs </p>
+<br><br><p>10.Input Type Password </p><br>
+<label>Username:</label><br>
+<input type="text"><br>
+<label>Password:</label><br>
+<input type="password"><br><br>
+<input type="submit" value="Submit">
+<br><br><p>11.Input Type Reset </p><br>
+<label> First name: </label>
+<input type="text" value="Enter your Name here.."><br><br>
+<label>Last name:</label>
+<input type="text"  value= "Enter your Last name here…."><br><br>
+<input type="submit" value="Submit"><br><br>
+<input type="reset">
+<br><br><p>12.Input Type Checkbox </p><br>
+<input type="checkbox"  value="Bike">
+<label> I have a bike</label><br>
+<input type="checkbox" value="Car">
+<label> I have a car</label><br>
+<input type="checkbox" value="Boat">
+<label> I have a boat</label>
+<br><br><p>13.Input Type Date </p><br>
+<label>Birthday:</label>
+<input type="date">
+<br><br><p>14.Input Type Date Max restrictions to dates </p><br>
+<label>Enter a date before 1980-01-01:</label>
+<input type="date"  max="1979-12-31"><br><br>
+<label>Enter a date after 2000-01-01:</label>
+<input type="date"  min="2000-01-02"><br><br>
+<label>Enter a date between 2000-01-01 and 2005-01-01:</label>
+<input type="date"  min="2000-01-02" max = "2005-01-01"><br><br>
+<br><br><p>15.Input Type Datetime-local </p><br>
+<label>Birthday (date and time):</label>
+ 
+<input type="datetime-local" >
+<br><br><p>16.Input Type Email </p><br>
+<label>Enter your email:</label>
+<input type="email" >
+<br><br><p>17.Input Type File </p><br>
+<label>Select a file:</label>
+<input type="file" >
+<br><br><p>18.Input Type Tel </p><br>
+<label>Enter your phone number:</label>
+<input type="tel"  pattern="[0-9]{3}-[0-9]{7}">
+</form>
+ 
+<br><br>
+ 
+<button type="button" onclick="alert('Hello World!')"> Click Me! </button>
+</body>
+</html>
